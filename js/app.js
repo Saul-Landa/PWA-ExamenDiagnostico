@@ -13,7 +13,7 @@ const listarFetch = async() => {
                     <div class="card-body">
                     <h5 class="card-title">${persona.first_name} ${persona.last_name}</h5>
                     <p class="card-text">${persona.email}</p>
-                    <a href="#" class="btn btn-danger" onclick="eliminar(${index})">Eliminar</a>
+                    <a class="btn btn-danger" onclick="eliminar(${index})">Eliminar</a>
                     </div>
                 </div>`
 
@@ -36,7 +36,7 @@ const listarLocal = async() => {
             <div class="card-body">
             <h5 class="card-title">${persona.first_name} ${persona.last_name}</h5>
             <p class="card-text">${persona.email}</p>
-            <a href="#" class="btn btn-danger" onclick="eliminar(${index})">Eliminar</a>
+            <a class="btn btn-danger" onclick="eliminar(${index})">Eliminar</a>
             </div>
         </div>`
 
